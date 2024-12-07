@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace base{
+namespace Base{
     class Program {
         static void Main(string[] args){
 
@@ -9,28 +9,22 @@ namespace base{
             string[] input = System.IO.File.ReadAllLines("../input/input.txt");
 
             // write solutions
-            System.Console.WriteLine("----------------\nPart1: {0}\n----------------", partOne(input));
-            System.Console.WriteLine("----------------\nPart2: {0}\n----------------", partTwo(input));
+            System.Console.WriteLine("----------------\nPart1: {0}\n----------------", PartOne(input));
+            System.Console.WriteLine("----------------\nPart2: {0}\n----------------", PartTwo(input));
             return;
         }
 
 
-        static int partOne(string[] input){
-            
+        static int PartOne(string[] input){
+
             int solution = 0;
-
-            
-
             return solution;
         }
 
 
-        static int partTwo(string[] input){
+        static int PartTwo(string[] input){
             
             int solution = 0;
-
-
-
             return solution;
         }
     }
