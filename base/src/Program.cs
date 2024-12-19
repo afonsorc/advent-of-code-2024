@@ -6,7 +6,7 @@ namespace Base{
         static void Main(string[] args){
 
             // read and process input onto array
-            string[] input = System.IO.File.ReadAllLines("../input/input.txt");
+            string[] input = System.IO.File.ReadAllLines("./input/input.txt");
 
             // write solutions
             System.Console.WriteLine("----------------\nPart1: {0}\n----------------", PartOne(input));
